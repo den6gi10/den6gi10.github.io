@@ -11,9 +11,11 @@
 
 body {
   	background-color: #1abc9c;
-  	font-family: 'Montserrat', sans-serif;
+/*  	font-family: 'Montserrat', sans-serif;　*/
+  	font-family:  "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, Meiryo, 'Montserrat', sans-serif;
     font-weight: 400;
-    font-size: 12px;
+/*    font-size: 12px; */
+    font-size: medium;    
     color: #555;
 
     -webkit-font-smoothing: antialiased;
@@ -22,13 +24,15 @@ body {
 
 /* Titles */
 h1, h2, h3, h4, h5, h6 {
-	font-family: 'Montserrat', sans-serif;
+/*	font-family: 'Montserrat', sans-serif; */
+  	font-family:  "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, Meiryo, 'Montserrat', sans-serif;
     font-weight: 700;
     color: #333;
 }
 
 h1 {
-	font-size: 30px;
+/*	font-size: 30px; */
+    font-size: x-large;    
 	margin-top: 20px;
 	margin-bottom: 30px;
 }
@@ -39,7 +43,8 @@ h1 {
 p {
     line-height: 28px;
     margin-bottom: 25px;
-    font-size: 16px;
+/*    font-size: 16px; */
+    font-size: medium;        
 }
 
 .centered {

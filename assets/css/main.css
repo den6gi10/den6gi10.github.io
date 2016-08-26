@@ -250,3 +250,13 @@ bt {
 	font-size: 40px;
 	color: #1abc9c;
 }
+
+/* ================== ToTOPpage  ================== */
+/* layout */
+
+hr {
+	 height: 1px;
+	 border: none;
+	 border-top: 1px #1abc9c dashed;
+}
+*/

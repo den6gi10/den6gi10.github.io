@@ -5,22 +5,27 @@
 <url>
   <loc>http://ajitome.xyz/</loc>
   <priority>1.0</priority>
-  <lastmod>2016-08-20T23:22:19+09:00</lastmod>
+  <lastmod>2016-08-27T21:16:12+09:00</lastmod>
 </url>
 <url>
   <loc>http://ajitome.xyz/index.html</loc>
   <priority>0.8</priority>
-  <lastmod>2016-08-20T23:22:19+09:00</lastmod>
+  <lastmod>2016-08-27T21:16:12+09:00</lastmod>
+</url>
+<url>
+  <loc>http://ajitome.xyz/newmenu.html</loc>
+  <priority>0.8</priority>
+  <lastmod>2016-08-27T21:16:12+09:00</lastmod>
 </url>
 <url>
   <loc>http://ajitome.xyz/ajitomesamba.html</loc>
   <priority>0.8</priority>
-  <lastmod>2016-08-20T23:22:19+09:00</lastmod>
+  <lastmod>2016-08-27T21:16:12+09:00</lastmod>
 </url>
 <url>
   <loc>http://ajitome.xyz/assets/pdf/01how2play.pdf</loc>
   <priority>0.7</priority>
-  <lastmod>2016-08-20T23:22:19+09:00</lastmod>
+  <lastmod>2016-08-27T21:16:12+09:00</lastmod>
 </url>
 
 </urlset>

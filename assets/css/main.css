@@ -259,4 +259,14 @@ hr {
 	 border: none;
 	 border-top: 1px #1abc9c dashed;
 }
-*/
+
+/* ================== Kakomi  ================== */
+/* layout */
+
+ .kakomi {
+    background: #f1f1f1 none repeat scroll 0 0;
+    border: 1px solid #e3e0e0;
+    margin-top: 30px;
+    padding: 20px 20px 30px;
+    text-align: center;
+}

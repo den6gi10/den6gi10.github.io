@@ -1,7 +1,7 @@
 $(document).ready(function() {
     var feed = new Instafeed({
         get: 'tagged', //ハッシュタグから取得
-        tagName: '味とめ食事部', //好きなハッシュタグを設定
+        tagName: '#味とめ食事部', //好きなハッシュタグを設定
         sortBy:'random', //並び順をランダムに
         links: true , //画像リンク取得
         limit: 3, //取得する画像数を設定

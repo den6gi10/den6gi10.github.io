@@ -269,6 +269,9 @@ hr {
     margin-top: 30px;
     padding: 20px 20px 30px;
     text-align: center;
+    -webkit-border-radius:25px;
+    -moz-border-radius:25px; 
+    border-radius:25px;
 }
 
 /* 20161015 magisto embed layout */

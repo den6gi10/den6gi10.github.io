@@ -53,6 +53,25 @@
          }(document, 'script', 'facebook-jssdk'));
     </script>
 <!--    <script type="text/javascript">!function(d,i){if(!d.getElementById(i)){var j=d.createElement("script");j.id=i;j.src="https://widgets.getpocket.com/v1/j/btn.js?v=1";var w=d.getElementById(i);d.body.appendChild(j);}}(document,"pocket-btn-js");</script> -->
+  
+  <!--アコーディオン表示の「続きを読む」が簡単に実装できるjQueryプラグイン『jTruncSubstr』をつかってオススメの詳細を説明テキスト20170107　-->
+  <script src="assets/js/jquery-3.1.1.min.js" type="text/javascript" type="text/javascript"></script>
+  <script src="assets/js/jquery.jtruncsubstr-1.0rc.js" type="text/javascript"></script>
+  <script type="text/javascript">
+  $().ready(function() {
+      $('#sam').jTruncSubstr({
+          length: 9,            // 表示させる文字数 (おすすめ商品名de文字数調整を！
+          minTrail: 2,            // 省略文字の最低文字数
+      //  moreText: "続きを読む",  // 非表示部分を表示するリンクの文字列
+          moreText: "つづきを読む",  // 非表示部分を表示するリンクの文字列
+          lessText: "とじる",       // 表示した後、再び非表示にするリンクの文字列
+          ellipsisText: "！...",    // 続きがあることを表示するための文字列
+          moreAni: "fast",        // 表示時のアニメーション速度
+          lessAni: "fast"         // 非表示時のアニメーション速度
+      });  
+  });
+  </script>
+  <!--アコーディオン表示の「続きを読む」が簡単に実装できるjQueryプラグイン『jTruncSubstr』をつかってオススメの詳細を説明テキスト20170107　-->
   </head>
 
   <body>
@@ -104,7 +123,8 @@
 <!--					<p><h3>本年の土用丑の日もご贔屓いただき誠にありがとうございました。</h3></p> -->
 					<p><h3>＼\おすすめ/／</h3></p> 
           <!--<p><h3>早もぎ温州みかんサワー</h3></p> -->
-          <p><h3>早もぎ温州みかんソーダ割</h3></p> 
+          <!--<p><h3>早もぎ温州みかんソーダ割</h3></p> -->
+          <p><div id="sam"><h3>ナツ柑サワーは、ままさん地元直送のナツ柑を絞って炭酸割りでお召しいただくお酒です。関西風に申せば「ナツ柑チューハイ」。甘党の方にはハチミツをチューブごとお渡しいたします！お好みでどうぞ！果汁絞ったうえにハチミツチューブも絞りたい放題！と絶賛人気上昇中！！新サワーを是非この機会にどうぞ！</h3></div></p>           
 					<!--<p><strong>＼\秋の三茶催事行楽ついでに/／</strong></p>-->
           <p>三軒茶屋にのれんを構え半世紀...かわらず懐かしい憩い処。怪しげでディープな店構えの昭和の生きた化石！？
           <br>はじめてのお客さまもお気軽にどうぞ。</p>

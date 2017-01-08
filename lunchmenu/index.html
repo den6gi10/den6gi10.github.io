@@ -1,11 +1,20 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html lang="ja">
 <html>
 	<head>
-		<title>Photo Desk</title>
+
+    <!--<meta http-equiv="X-UA-Compatible" content="IE=edge">-->
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0">-->
+    <link rel="icon" href="assets/img/ico/favicon.png">
+    <link rel="shortcut icon" href="assets/img/ico/favicon.ico">
+    <link rel="apple-touch-icon" href="assets/img/ico/apple-icon.png">
+
+    <title>味とめ ランチ・定食 メニュー</title>
+
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-		<meta name="description" content="" />
-		<meta name="keywords" content=""/>
-		<link rel="shortcut icon" href="../favicon.ico" type="image/x-icon"/>
+	    <meta name="description" content="三軒茶屋すずらん通り大衆割烹味とめからささやかな贈り物。特別企画のご案内。 "/>
+	    <meta name=”keywords” content=”tokyo,ajitome,味とめ,あじとめ,三軒茶屋,三茶,ランチ,メニューの多い料理店”/>
+
 		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen"/>
 		<style>
 			span.reference{
@@ -15,7 +24,8 @@
 				font-size:11px;
 			}
 			span.reference a{
-				color:#555;
+				/*color:#555;*/ 
+				color:#1abc9c;
 				text-decoration:none;
 				text-shadow:1px 1px 1px #fff;
 			}
@@ -25,19 +35,40 @@
 			h1.title{
 				text-indent:-9000px;
 				position:absolute;
+				/*position:relative;*/
 				top:0px;
 				left:0px;
-				width:563px;
-				height:88px;
-				background:transparent url(images/title.png) no-repeat top left;
+				/*width:563px;
+				height:88px;*/
+				width:41px;
+				height:18px;				
+				/*background:transparent url(images/title.png) no-repeat top left;*/
+				/*background:transparent url(../assets/img/ico/favicon.png) no-repeat top left;*/
 			}
 		</style>
+	<!-- ga -->
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+      ga('create', 'UA-82227481-1', 'auto');
+      ga('send', 'pageview');
+
+    </script>
+	<!-- ga -->
+
 	</head>
 	<body>
 		<div>
-			<h1 class="title">Interactive Photo Desk with jQuery and CSS3</h1>
+			<h1 class="title">三軒茶屋すずらん通り大衆割烹 味とめ 定食お品書き</h1>
+			<div>三茶ランチ難民の皆様、［朗報］ですよぉ〜</div>
+			<div><img src="../assets/img/userlogoNS.png" height="79" alt="ajtomelogo"></div>
 			<span class="reference">
-				<a href="http://tympanus.net/codrops/2010/07/01/interactive-photo-desk">© Codrops</a>
+				<a href="../index.html">
+				大衆割烹<img src="https://static.wixstatic.com/media/1a6dbc_e2f8b6afeb304482a047dff0300a7113~mv2_d_2220_2160_s_2.png/v1/fill/w_105,h_101,al_c,usm_0.66_1.00_0.01/1a6dbc_e2f8b6afeb304482a047dff0300a7113~mv2_d_2220_2160_s_2.png" alt="味とめ" width="50" height="50">
+				</a>
 			</span>
 		</div>
 
@@ -53,64 +84,82 @@
 		<div id="pd_container" class="pd_container">
 			<div class="pd_photo">
 				<div class="pd_hold">
-					<img src="photos/01_sake.jpg" alt=""/>
+					<img src="photos/01_sake.jpg" alt="鮭定食"/>
 				</div>
 				<span class="delete"></span>
 			</div>
 			<div class="pd_photo">
 				<div class="pd_hold">
-					<img src="photos/02_yaki_udon.jpg" alt=""/>
+					<img src="photos/02_yaki_udon.jpg" alt="焼うどん"/>
 				</div>
 				<span class="delete"></span>
 			</div>
 			<div class="pd_photo">
 				<div class="pd_hold">
-					<img src="photos/03_buta_kimuchi.jpg" alt=""/>
+					<img src="photos/03_buta_kimuchi.jpg" alt="豚キム"/>
 				</div>
 				<span class="delete"></span>
 			</div>
 			<div class="pd_photo">
 				<div class="pd_hold">
-					<img src="photos/04-tar_toufu_nabe.jpg" alt=""/>
+					<img src="photos/04-tar_toufu_nabe.jpg" alt="たら豆腐鍋"/>
 				</div>
 				<span class="delete"></span>
 			</div>
 			<div class="pd_photo">
 				<div class="pd_hold">
-					<img src="photos/05-sabayaki.jpg" alt=""/>
+					<img src="photos/05-sabayaki.jpg" alt="鯖焼き"/>
 				</div>
 				<span class="delete"></span>
 			</div>
 			<div class="pd_photo">
 				<div class="pd_hold">
-					<img src="photos/06-tori_tendon.jpg" alt=""/>
+					<img src="photos/06-tori_tendon.jpg" alt="トリ天丼"/>
 				</div>
 				<span class="delete"></span>
 			</div>
 			<div class="pd_photo">
 				<div class="pd_hold">
-					<img src="photos/07_kujiratatsuta.jpg" alt=""/>
+					<img src="photos/07_kujiratatsuta.jpg" alt="くじら竜田"/>
 				</div>
 				<span class="delete"></span>
 			</div>
 			<div class="pd_photo">
 				<div class="pd_hold">
-					<img src="photos/08_una_toro.jpg" alt=""/>
+					<img src="photos/08_una_toro.jpg" alt="うなトロ丼"/>
 				</div>
 				<span class="delete"></span>
 			</div>
 			<div class="pd_photo">
 				<div class="pd_hold">
-					<img src="photos/05-sabayaki.jpg" alt=""/>
+					<img src="photos/09_iwasi-nitsuke.jpg" alt="鰯煮付"/>
 				</div>
 				<span class="delete"></span>
 			</div>
 			<div class="pd_photo">
 				<div class="pd_hold">
-					<img src="photos/05-sabayaki.jpg" alt=""/>
+					<img src="photos/10_kusi_katsu.jpg" alt="串カツ"/>
 				</div>
 				<span class="delete"></span>
-			</div>												
+			</div>
+			<div class="pd_photo">
+				<div class="pd_hold">
+					<img src="photos/11_nikomi-yoko.jpg" alt="煮込み"/>
+				</div>
+				<span class="delete"></span>
+			</div>
+			<div class="pd_photo">
+				<div class="pd_hold">
+					<img src="photos/12_toriponzu_nabe.jpg" alt="トリぽん酢鍋"/>
+				</div>
+				<span class="delete"></span>
+			</div>																		
+			<div class="pd_photo">
+				<div class="pd_hold">
+					<img src="photos/13_kakiage.jpg" alt="かき揚げ"/>
+				</div>
+				<span class="delete"></span>
+			</div>																		
 		</div>
 
 		<!-- The JavaScript -->

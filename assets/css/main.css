@@ -405,3 +405,57 @@ ul.msgL li a {
 	margin-top: -36px;
 }
 
+/* ================== 　youtube karuku 20170111  ================== */
+.youtube {position:relative;}/* ラッパー */
+.youtube_play:hover {cursor:pointer;}/* サムネイル */
+.youtube_btn {/* YouTubeアイコン */
+/* アイコンの画像とサイズ指定 */
+width:42px;
+height:30px;
+/*background-image:url(マウスが乗っていない.png); */
+background-image:url(../assets/img/user-lun_Ver_shukuseijin.png);
+/* 上下左右中央へ配置 */
+position:absolute;
+top:0;
+bottom:0;
+left:0;
+right:0;
+margin:auto;
+}
+
+/* ================== 　event campaign 20170308 ================== 　*/
+.eventcampaign{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	padding: 9px;
+	width: 100%;
+/*	background-color: #ff6699; */
+/*	background-color: rgba(256, 100, 100, 0.6); */
+/*	background-color: rgba(204, 0, 102, 0.5); */
+	background-color: rgba(51, 153, 255, 0.8);
+/*	background-color: rgba(102, 153, 153, 0.8); */
+	box-shadow: 0 -4px 5px rgba(102, 102, 102, 0.6); 
+}
+.eventcampaign p{
+	margin: 0;
+	text-align: center;
+	font-weight: bold;
+	font-size: 80%;
+	color: #ffff00; 
+/*	color: #ffffff;*/
+}
+/* ================== 　event campaign 20170308 all hover  ================== 　*/
+.eventcampaign:hover {
+	background: rgba(255, 255, 255, 0.6);
+/*	background: rgba(102, 102, 51, 0.9); */
+}
+
+.eventcampaign p:hover{
+	margin: 0;
+	text-align: center;
+	font-weight: bold;
+	font-size: 80%;
+/*	color: #ffff00; */
+	color: #666666;	
+}

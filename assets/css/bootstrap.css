@@ -4579,6 +4579,14 @@ textarea.input-group-sm > .input-group-btn > .btn {
     padding-top: 15px;
     padding-bottom: 15px;
   }
+/* ================== 　eternal link 20170310   ================== 　*/
+.navbar-nav > li > a[target="_blank"]::after {
+	content: url(../img/ico/external-link-icon-wh.png); 
+	margin-left: -9px;
+	position: relative;
+	bottom: -10px;
+}
+/* ================== 　eternal link 20170310   ================== 　*/
   .navbar-nav.navbar-right:last-child {
     margin-right: -15px;
   }

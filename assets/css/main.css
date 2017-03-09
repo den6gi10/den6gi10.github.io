@@ -459,3 +459,14 @@ margin:auto;
 /*	color: #ffff00; */
 	color: #666666;	
 }
+
+/* ================== 　eternal link 20170309   ================== 　*/
+.eternallinks a[target="_blank"]::after {
+/*	content: url(../img/ico/external-link-icon-wh.png); */
+	content: url(../img/ico/external-link-aqua02-Shapes4FREE.png);
+	margin-left: -9px;
+
+	position: relative;
+	bottom: -10px;
+}
+

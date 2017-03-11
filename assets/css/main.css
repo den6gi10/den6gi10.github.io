@@ -463,10 +463,62 @@ margin:auto;
 /* ================== 　eternal link 20170309   ================== 　*/
 .eternallinks a[target="_blank"]::after {
 /*	content: url(../img/ico/external-link-icon-wh.png); */
-	content: url(../img/ico/external-link-aqua02-Shapes4FREE.png);
+/*	content: url(../img/ico/external-link-aqua02-Shapes4FREE.png); */
+	content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAG1JREFUeNpi/P//P0PEyZP8DAwMHxjwABYk9scV5uYC2BQBDfrPAiLQBZH5QM2MIJoJygeZ9BEmAZNEBky4rEJXzIKmAOSph9hMZEFzz0eoM1Dch66QH90jKCD8xIn/oLDEhpHlWLAFCTYAEGAA5AFD0IQGeY4AAAAASUVORK5CYII=);
+	
 	margin-left: -9px;
 
 	position: relative;
 	bottom: -10px;
 }
 
+/* ================== 　crosswordsnavi 20170311 ================== 　*/
+.crosswordsnavi{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	padding: 9px;
+	width: 7%;
+/*	background-color: #ff6699; */
+/*	background-color: rgba(256, 100, 100, 0.6); */
+/*	background-color: rgba(204, 0, 102, 0.5); */
+	background-color: rgba(51, 153, 255, 0.8);
+/*	background-color: rgba(102, 153, 153, 0.8); */
+	box-shadow: 0 -4px 5px rgba(102, 102, 102, 0.6); 
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 14px;
+}
+.crosswordsnavi p{
+	margin: 0;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30%;
+	color: #ffff00; 
+/*	color: #ffffff;*/
+	line-height: 1.0;/*	行間  */
+}
+/* ================== 　crosswordsnavi 20170311 all hover  ================== 　*/
+.crosswordsnavi:hover {
+	background: rgba(255, 255, 255, 0.6);
+/*	background: rgba(102, 102, 51, 0.9); */
+}
+
+.crosswordsnavi p:hover{
+	margin: 0;
+	text-align: center;
+	font-weight: bold;
+	font-size: 80%;
+/*	color: #ffff00; */
+	color: #666666;	
+}
+
+.crosswordsnavi hr{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30%;
+	border-top: 1px dashed#ffff00; 
+/*	color: #ffffff;*/
+	line-height: 1.0;/*	行間  */
+}

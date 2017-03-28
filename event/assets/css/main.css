@@ -414,3 +414,75 @@ ul.msgL li a {
     -webkit-border-radius: 1200px;
     -moz-border-radius: 1200px;
 }
+
+/**/
+.photoresizefull p{
+	/* margin: 0; */
+	overflow: hidden;
+	position: relative;
+}
+
+.photoresizefull p{
+	margin: 0;
+	overflow: hidden;
+	position: relative;
+
+}
+.photoresizefull img{
+	/*position: absolute;*/
+	width: 100vw;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;	
+}
+
+.introPhoto {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+    background: url(../img/intro-bg.jpg) no-repeat bottom center scroll;
+    background-color: black;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+.intro-body {
+        display: table-cell;
+        vertical-align: middle;
+}
+.brand-heading {
+            font-size: 40px;
+        }
+.intro-text {
+            font-size: 18px;
+}
+
+/* kotaewase20170329 */
+.tatekagi p:first-letter{
+    font-size: 2em;
+    color: #800000;
+    font-weight: 700;        
+}
+.tatekagi p {
+    font-weight: 700;
+    color: #800000;    
+}
+.yokokagi p:first-letter{
+    font-size: 2em;
+    color: #800000;
+    font-weight: 700;        
+}
+.yokokagi p {
+    font-weight: 700;
+    color: #800000;    
+}
+.kagikotoba {
+    font-weight: 1000;
+    text-shadow: 1px 1px 1px #800000;
+    color: #99999F; 
+}

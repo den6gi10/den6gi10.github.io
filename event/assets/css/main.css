@@ -463,6 +463,12 @@ ul.msgL li a {
 }
 
 /* kotaewase20170329 */
+.setsumeikaitou{
+    font-size: 2em;
+    color: #800000;
+    font-weight: 700;        
+}
+
 .tatekagi p:first-letter{
     font-size: 2em;
     color: #800000;
@@ -483,6 +489,20 @@ ul.msgL li a {
 }
 .kagikotoba {
     font-weight: 1000;
-    text-shadow: 1px 1px 1px #800000;
-    color: #99999F; 
+    text-shadow: 1px 1px 1px #ff9999;
+    /*text-decoration-line: underline;*/
+    color: #ff1493; /* keyword hilight color */
+}
+.kagikotoba h2 {
+    font-weight: 1000;
+    text-shadow: 1px 1px 1px #ff9999;
+    /*text-decoration-line: underline;*/
+    color: #ff1493; /* keyword hilight color */
+}
+
+.fstlttrkagikotoba p:first-letter{
+    font-size: 2em;
+    text-shadow: 1px 1px 1px #ff9999;
+    color: #ff1493; /* keyword hilight color */
+    font-weight: 700;        
 }

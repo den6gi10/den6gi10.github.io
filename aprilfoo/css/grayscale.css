@@ -244,7 +244,7 @@ a:focus {
 /* gazou20170322 */
 .pic-section-1{
   /*background: url(../img/01_sekihan.jpeg) no-repeat center center scroll;    */
-  background: url(../img/bgmono.jpg) no-repeat center center scroll;  
+  background: url(../img/tennnaiSakura.jpeg) no-repeat center center scroll;  
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -262,7 +262,7 @@ a:focus {
 } 
 
 .pic-section-3{
-  /*background: url(../img/03-chitchien.jpeg) no-repeat center center scroll;  */
+  background: url(../img/cheatsareru.jpeg) no-repeat center center scroll;  
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -271,7 +271,7 @@ a:focus {
 } 
 
 .pic-section-4{
-  /*background: url(../img/04-presents.jpeg) no-repeat center center scroll;  */
+  background: url(../img/doburokukirin.jpeg) no-repeat center center scroll;  
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;

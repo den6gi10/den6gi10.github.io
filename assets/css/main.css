@@ -434,7 +434,9 @@ margin:auto;
 /*	background-color: #ff6699; */
 /*	background-color: rgba(256, 100, 100, 0.6); */
 /*	background-color: rgba(204, 0, 102, 0.5); */
-	background-color: rgba(51, 153, 255, 0.8);
+/*　クロスワードの場合↓　*/
+	/*background-color: rgba(51, 153, 255, 0.8);*/
+	background-color: rgba(255, 153, 153, 0.8);
 /*	background-color: rgba(102, 153, 153, 0.8); */
 	box-shadow: 0 -4px 5px rgba(102, 102, 102, 0.6); 
 }
@@ -443,7 +445,9 @@ margin:auto;
 	text-align: center;
 	font-weight: bold;
 	font-size: 80%;
-	color: #ffff00; 
+/*　クロスワードの場合↓　*/	
+	/*color: #ffff00; */
+	color: #663333; 
 /*	color: #ffffff;*/
 }
 /* ================== 　event campaign 20170308 all hover  ================== 　*/

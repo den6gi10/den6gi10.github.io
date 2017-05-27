@@ -227,11 +227,11 @@ a:focus {
 .content-section {
   padding-top: 100px;
 }
-.download-section,.pic-section-1,.pic-section-2,.pic-section-3,.pic-section-4,.pic-section-5,.pic-section-6,.pic-section-7 {
+.download-section,.pic-section-1,.pic-section-2,.pic-section-3,.pic-section-4,.pic-section-5,.pic-section-6,.pic-section-7,.pic-section-8,.pic-section-9 {
   width: 100%;
   padding: 50px 0;
   margin-top: -60px; 
-  color: #1d9b6c; /* white ff6699 */
+  color: #ffff00; /* white ff6699 */
   /*background: url(../img/01_sekihan.jpeg) no-repeat center center scroll;*/
   /*background-color: black;
   -webkit-background-size: cover;

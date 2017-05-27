@@ -227,7 +227,7 @@ a:focus {
 .content-section {
   padding-top: 100px;
 }
-.download-section,.pic-section-1,.pic-section-2,.pic-section-3,.pic-section-4,.pic-section-5,.pic-section-6,.pic-section-7,.pic-section-8,.pic-section-9 {
+.download-section,.pic-section-1,.pic-section-2,.pic-section-3,.pic-section-4,.pic-section-5,.pic-section-6,.pic-section-7,.pic-section-8,.pic-section-9,.pic-section-10 {
   width: 100%;
   padding: 50px 0;
   margin-top: -60px; 
@@ -325,6 +325,16 @@ a:focus {
 } 
 
 
+.pic-section-10{
+  background: url(../img/10-unagimigiri.jpg) no-repeat center center scroll;  
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;  
+} 
+
+
 
 /* gazou20170322 */
 #map {
@@ -407,4 +417,46 @@ img::-moz-selection {
 }
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
+}
+
+
+/*　メニュー表示20170527　*/
+.sample10 {
+	width:			100%;
+	/*width:			280px;*/
+	height:			188px;
+	overflow:		hidden;
+	margin:			10px 8px 10px 16px;
+	position:		relative;
+}
+.sample10 .caption {
+	font-size:		130%;
+	color:			#ffff00;
+	padding-top:		15px;
+  padding-left: 15px;
+	text-align: 		left;
+}
+.sample10 .mask {
+	width:			100%;
+	height:			100px;
+	position:		absolute;
+	top:			-100px;	/* 枠の上に置いて表示しない */
+	left:			0;
+	background-color:	rgba(0,0,0,0.4);
+	-webkit-transition:	all 0.4s ease;
+	transition:		all 0.4s ease;
+}
+.sample10:hover .mask {
+	top:		0px;	/* 下に降りてくるように見せる */
+}
+.sample10 img {
+	-webkit-transition:	all 0.4s ease;
+	transition:		all 0.4s ease;
+	-webkit-transform:	scale(1.2);	/* 1.2倍の大きさで表示 */
+	transform:		scale(1.2);
+}
+.sample10:hover img {
+	margin-top:		100px;			/* 画像の絵を下にずらす */
+	-webkit-transform:	scale(1);	/* 元の大きさに戻す */
+	transform:		scale(1);
 }

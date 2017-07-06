@@ -436,7 +436,8 @@ margin:auto;
 /*	background-color: rgba(204, 0, 102, 0.5); */
 /*　クロスワードの場合↓　*/
 	/*background-color: rgba(51, 153, 255, 0.8);*/
-	background-color: rgba(255, 153, 153, 0.8);
+	/*background-color: rgba(255, 153, 153, 0.8); */
+	background-color:#4169e1;
 /*	background-color: rgba(102, 153, 153, 0.8); */
 	box-shadow: 0 -4px 5px rgba(102, 102, 102, 0.6); 
 }
@@ -447,7 +448,8 @@ margin:auto;
 	font-size: 80%;
 /*　クロスワードの場合↓　*/	
 	/*color: #ffff00; */
-	color: #663333; 
+	/*color: #663333; */
+	color: #f0e68c;
 /*	color: #ffffff;*/
 }
 /* ================== 　event campaign 20170308 all hover  ================== 　*/
@@ -546,4 +548,16 @@ margin:auto;
     -webkit-border-radius:25px;
     -moz-border-radius:25px; 
     border-radius:25px;	
+}
+
+/* ================== 　eternal link 20170425   ================== 　*/
+.eternallinks a[target="_blank"]::after {
+/*	content: url(../img/ico/external-link-icon-wh.png); */
+/*	content: url(../img/ico/external-link-aqua02-Shapes4FREE.png); */
+	content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAG1JREFUeNpi/P//P0PEyZP8DAwMHxjwABYk9scV5uYC2BQBDfrPAiLQBZH5QM2MIJoJygeZ9BEmAZNEBky4rEJXzIKmAOSph9hMZEFzz0eoM1Dch66QH90jKCD8xIn/oLDEhpHlWLAFCTYAEGAA5AFD0IQGeY4AAAAASUVORK5CYII=);
+	
+	margin-left: -9px;
+
+	position: relative;
+	bottom: -10px;
 }

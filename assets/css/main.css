@@ -437,7 +437,8 @@ margin:auto;
 /*　クロスワードの場合↓　*/
 	/*background-color: rgba(51, 153, 255, 0.8);*/
 	/*background-color: rgba(255, 153, 153, 0.8); */
-	background-color:#4169e1;
+	background-color:#00bfff;
+	/*background-color:#4169e1;*/
 /*	background-color: rgba(102, 153, 153, 0.8); */
 	box-shadow: 0 -4px 5px rgba(102, 102, 102, 0.6); 
 }

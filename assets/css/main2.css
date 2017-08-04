@@ -1,0 +1,460 @@
+/* =====================
+	CSSリセット
+======================= */
+* {
+	margin:0;
+	padding:0;
+}
+
+ul {
+	list-style:none;
+}
+
+br {
+	letter-spacing:0;
+}
+
+img {
+	max-width:100%;
+	height:auto;
+	border:none;
+	vertical-align:top;
+}
+
+/* clearfix */
+.clearfix:after {
+	content: ".";
+	display: block;
+	height: 0;
+	font-size:0;
+	clear: both;
+	visibility:hidden;
+}
+.clearfix {
+	display: inline-block;
+}
+/* Hides from IE Mac \*/
+* html .clearfix {height: 1%;}
+.clearfix{display:block;}
+/* End Hack */
+
+html,body {
+	height:100%;
+}
+
+body {
+	color:#333;
+	background:#89a3c6;
+	-webkit-text-size-adjust: 100%;
+}
+
+#all {
+	max-width:640px;
+	margin:0 auto;
+}
+
+/* =====================
+	コンテンツ
+======================= */
+
+/*
+ * Author: Carlos Alvarez
+ * URL: http://alvarez.is
+ *
+ * Project Name: STANLEY - Free Bootstrap 3 Theme
+ * Version: 1.0
+ * URL: http://blacktie.co
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+  	background-color: #1abc9c;
+/*  	font-family: 'Montserrat', sans-serif;　*/
+  	font-family:  "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, Meiryo, 'Montserrat', sans-serif;
+    font-weight: 400;
+/*    font-size: 12px; */
+    font-size: medium;    
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+/*	font-family: 'Montserrat', sans-serif; */
+  	font-family:  "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, Meiryo, 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #333;
+}
+
+h1 {
+/*	font-size: 30px; */
+    font-size: x-large;    
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+/*    font-size: 16px; */
+    font-size: medium;        
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #1abc9c;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+.navbar {
+	text-transform: uppercase;
+	margin-bottom: 0px;
+}
+
+.navbar-inverse {
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+.navbar-inverse {
+	background-color: #1abc9c;
+	border-color: #16a085;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+	color: #222222;
+}
+
+.navbar-brand {
+	font-weight: 700;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+.navbar-inverse .navbar-toggle {
+	border-color: transparent;
+}
+
+.progress-bar-theme {
+  background-color: #1abc9c;
+}
+
+
+/* Helpers */
+
+.mt {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.pt {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+/* +++++ WRAP SECTIONS +++++ */
+
+#ww {
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background-color: #ffffcc;
+}
+
+
+#footer {
+	background-color: #2f2f2f;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#footer p {
+	color: white;
+}
+
+#footer h4 {
+	color: white;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
+
+#footer h5 {
+	color: white;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
+
+/* +++++ Color Wraps / Blog Page +++++ */
+
+#grey {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: #f2f2f2;
+}
+
+#white {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: #ffffff;
+}
+
+
+
+/* Blog Date*/
+bd {
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #d2d2d2;
+	font-weight: 700;
+}
+
+/* Blog Author*/
+ba {
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+/* Blog Quote */
+.bq {
+	font-size: 22px;
+	padding-top: 30px;
+}
+
+/* Blog Tags */
+bt {
+	font-size: 12px;
+}
+
+/* ================== PORTFOLIO IMAGES HOVER EFFECT ================== */
+/* Effects also are controled by hover.zoom.js */
+.zoom {
+    display:block;
+    position:relative;
+    overflow:hidden;
+    background:transparent url(../img/loader.gif) no-repeat center;
+}
+
+
+    .zoomOverlay {
+        position:absolute;
+        top:0; left:0;
+        bottom:0; right:0;
+        display:none;
+        background-image:url(../img/zoom.png);
+        background-repeat:no-repeat;
+        background-position:center;
+    }
+
+.zoom2 {
+	opacity: 1;
+}
+
+.zoom2:hover {
+	opacity: 0.5;
+}
+
+/* glyphicon Configuration */
+
+.glyphicon {
+	font-size: 40px;
+	color: #1abc9c;
+}
+
+/* ================== ToTOPpage  ================== */
+/* layout */
+
+hr {
+	 height: 1px;
+	 border: none;
+	 border-top: 1px #1abc9c dashed;
+}
+
+/* ================== Kakomi  ================== */
+/* layout */
+
+ .kakomi {
+    background: #f1f1f1 none repeat scroll 0 0;
+    border: 1px solid #e3e0e0;
+    margin-top: 30px;
+    padding: 20px 20px 30px;
+    text-align: center;
+    -webkit-border-radius:25px;
+    -moz-border-radius:25px; 
+    border-radius:25px;
+}
+
+/* 20161015 magisto embed layout */
+.magistoem {
+    position: relative;
+    width: 100%;
+    padding: 100% 0 0 0;
+}
+.magistoem iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* ================== msgLkakomi  ================== */
+
+/* sample */
+#sample div {background-color:#ccccff; margin:4px;}
+.rei {
+    font-size:60px;
+    float: left;
+}
+.oya {font-size:30px; background-color:#ccffcc;}
+.sample1 {font-size:12px; background-color:#ffccff; vertical-align:baseline;}
+
+/* kakomi UL list */
+ul.msgL {
+    display:table;
+    table-layout:fixed;
+    /*width:500px;*/
+    width:atuo;
+}
+ul.msgL li {
+    display:table-cell;
+    vertical-align:middle;
+    /*text-align:center;*/
+    background-color:red;
+    border-left:1px solid white;
+}
+ul.msgL li:first-child {
+    border:none;    
+}
+ul.msgL li a {
+    display:block;
+    text-decoration:none;
+    color:white;
+}
+
+/* left->right leftIcon 20161106 */ 
+.rIcon img{
+    width:33px;
+    height:33px;
+    max-width:100%;
+    max-height:100%;
+}
+
+/* left->right 20161106 */ 
+.msgLkakomi {
+	position: relative;
+	background: #21f2d0;
+	border: 4px solid #21f2d0;
+
+    -webkit-border-radius:25px;
+    -moz-border-radius:25px; 
+    border-radius:25px;    
+}
+.msgLkakomi:after, .msgLkakomi:before {
+	right: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.msgLkakomi:after {
+	border-color: rgba(33, 242, 201, 0);
+	border-right-color: #21f2d0;
+	border-width: 30px;
+	margin-top: -30px;
+}
+.msgLkakomi:before {
+	border-color: rgba(33, 242, 201, 0);
+	border-right-color: #21f2d0;
+	border-width: 36px;
+	margin-top: -36px;
+}
+
+/* right->Left 20161106 */ 
+.msgRkakomi {
+	position: relative;
+	background: #f1f1f1;
+	border: 4px solid #f1f1f1;
+
+    -webkit-border-radius:25px;
+    -moz-border-radius:25px; 
+    border-radius:25px;    
+}
+.msgRkakomi:after, .msgRkakomi:before {
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.msgRkakomi:after {
+	border-color: rgba(33, 242, 201, 0);
+	border-left-color: #f1f1f1;
+	border-width: 30px;
+	margin-top: -30px;
+}
+.msgRkakomi:before {
+	border-color: rgba(33, 242, 201, 0);
+	border-left-color: #f1f1f1;
+	border-width: 36px;
+	margin-top: -36px;
+}
+
+

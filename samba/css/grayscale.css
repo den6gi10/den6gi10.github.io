@@ -39,7 +39,7 @@ p {
   }
 }
 a {
-  color: white;
+  color: #E9611F;
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
@@ -123,7 +123,7 @@ a:focus {
   height: 100%; /* auto */
   padding: 50px 0; /* 100px */
   text-align: right; /* center */
-  text-shadow: 3px 3px 3px #111111;/* 20170322 */  
+  text-shadow: 3px 3px 3px hsla(45, 12%, 94%, 0.88);/* 20170322 */  
   color: #ffff00; /* white #ff6699 */
 /*  background: url(../img/intro-bg.jpg) no-repeat bottom center scroll; */
   /*background: url(../img/harunoSekihanFES.jpg) no-repeat top center scroll;*/

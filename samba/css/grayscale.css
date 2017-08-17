@@ -128,7 +128,7 @@ a:focus {
 /*  background: url(../img/intro-bg.jpg) no-repeat bottom center scroll; */
   /*background: url(../img/harunoSekihanFES.jpg) no-repeat top center scroll;*/
   /* background: url(../img/tanabata_HaiBool.png) no-repeat top center scroll; */
-  background: url(../img/sambaHerogazo.png) no-repeat top center scroll;
+  background: url(../img/sambaHerogazo3.png) no-repeat top center scroll;
   /*background: url(../img/sorobantoosibori.jpeg) no-repeat top center scroll; */
   background-color: black;
   -webkit-background-size: cover;
@@ -240,9 +240,9 @@ a:focus {
   background-size: cover;
   -o-background-size: cover;*/
 }
-/* gazou20170322 */
+/* gazou20170322 */ 
 .pic-section-1{
-  background: url(../img/01-dojyokaraage-DSC_3082-01.jpeg) no-repeat center center scroll;  
+  background: url(../img/menu.jpg) no-repeat center center scroll;  
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -269,7 +269,7 @@ a:focus {
 } 
 
 .pic-section-4{
-  background: url(../img/04-kimonosejyu.jpeg) no-repeat center center scroll;  
+  background: url(../img/iburigako.jpg) no-repeat center center scroll;  
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;

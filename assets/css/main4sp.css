@@ -1,0 +1,564 @@
+/*
+ * Author: Carlos Alvarez
+ * URL: http://alvarez.is
+ *
+ * Project Name: STANLEY - Free Bootstrap 3 Theme
+ * Version: 1.0
+ * URL: http://blacktie.co
+ */
+
+@import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
+
+body {
+  	background-color: gray;
+/*  	font-family: 'Montserrat', sans-serif;　*/
+  	font-family:  "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, Meiryo, 'Montserrat', sans-serif;
+    font-weight: 400;
+/*    font-size: 12px; */
+    font-size: medium;    
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+/*	font-family: 'Montserrat', sans-serif; */
+  	font-family:  "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, Meiryo, 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: #333;
+}
+
+h1 {
+/*	font-size: 30px; */
+    font-size: x-large;    
+	margin-top: 20px;
+	margin-bottom: 30px;
+}
+
+
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+/*    font-size: 16px; */
+    font-size: medium;        
+}
+
+.centered {
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: gray;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #16a085;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+.navbar {
+	text-transform: uppercase;
+	margin-bottom: 0px;
+}
+
+.navbar-inverse {
+	padding-bottom: 30px;
+	padding-top: 30px;
+}
+
+.navbar-inverse {
+	background-color: gray;
+	border-color: #16a085;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+	color: #222222;
+}
+
+.navbar-brand {
+	font-weight: 700;
+	font-size: 20px;
+	letter-spacing: 2px;
+}
+
+.navbar-inverse .navbar-brand {
+	color: white;
+}
+
+.navbar-inverse .navbar-toggle {
+	border-color: transparent;
+}
+
+.progress-bar-theme {
+  background-color: gray;
+}
+
+
+/* Helpers */
+
+.mt {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.pt {
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+
+/* +++++ WRAP SECTIONS +++++ */
+
+#ww {
+	padding-top: 70px;
+	padding-bottom: 70px;
+	background-color: white;
+}
+
+
+#footer {
+	background-color: #2f2f2f;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#footer p {
+	color: white;
+}
+
+#footer h4 {
+	color: white;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
+
+#footer h5 {
+	color: white;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
+
+/* +++++ Color Wraps / Blog Page +++++ */
+
+#grey {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: #f2f2f2;
+}
+
+#white {
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: #ffffff;
+}
+
+
+
+/* Blog Date*/
+bd {
+	font-size: 12px;
+	text-transform: uppercase;
+	color: #d2d2d2;
+	font-weight: 700;
+}
+
+/* Blog Author*/
+ba {
+	font-size: 12px;
+	text-transform: uppercase;
+}
+
+/* Blog Quote */
+.bq {
+	font-size: 22px;
+	padding-top: 30px;
+}
+
+/* Blog Tags */
+bt {
+	font-size: 12px;
+}
+
+/* ================== PORTFOLIO IMAGES HOVER EFFECT ================== */
+/* Effects also are controled by hover.zoom.js */
+.zoom {
+    display:block;
+    position:relative;
+    overflow:hidden;
+    background:transparent url(../img/loader.gif) no-repeat center;
+}
+
+
+    .zoomOverlay {
+        position:absolute;
+        top:0; left:0;
+        bottom:0; right:0;
+        display:none;
+        background-image:url(../img/zoom.png);
+        background-repeat:no-repeat;
+        background-position:center;
+    }
+
+.zoom2 {
+	opacity: 1;
+}
+
+.zoom2:hover {
+	opacity: 0.5;
+}
+
+/* glyphicon Configuration */
+
+.glyphicon {
+	font-size: 40px;
+	color: gray;
+}
+
+/* ================== ToTOPpage  ================== */
+/* layout */
+
+hr {
+	 height: 1px;
+	 border: none;
+	 border-top: 1px gray dashed;
+}
+
+/* ================== Kakomi  ================== */
+/* layout */
+
+ .kakomi {
+    background: #f1f1f1 none repeat scroll 0 0;
+    border: 1px solid #e3e0e0;
+    margin-top: 30px;
+    padding: 20px 20px 30px;
+    text-align: center;
+    -webkit-border-radius:25px;
+    -moz-border-radius:25px; 
+    border-radius:25px;
+}
+
+/* 20161015 magisto embed layout */
+.magistoem {
+    position: relative;
+    width: 100%;
+    padding: 100% 0 0 0;
+}
+.magistoem iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/* ================== msgLkakomi  ================== */
+
+/* sample */
+#sample div {background-color:#ccccff; margin:4px;}
+.rei {
+    font-size:60px;
+    float: left;
+}
+.oya {font-size:30px; background-color:#ccffcc;}
+.sample1 {font-size:12px; background-color:#ffccff; vertical-align:baseline;}
+
+/* kakomi UL list */
+ul.msgL {
+    display:table;
+    table-layout:fixed;
+    /*width:500px;*/
+    width:atuo;
+}
+ul.msgL li {
+    display:table-cell;
+    vertical-align:middle;
+    /*text-align:center;*/
+    background-color:red;
+    border-left:1px solid white;
+}
+ul.msgL li:first-child {
+    border:none;    
+}
+ul.msgL li a {
+    display:block;
+    text-decoration:none;
+    color:white;
+}
+
+/* left->right leftIcon 20161106 */ 
+.rIcon img{
+    width:33px;
+    height:33px;
+    max-width:100%;
+    max-height:100%;
+}
+
+/* left->right 20161106 */ 
+.msgLkakomi {
+	position: relative;
+	background: gray;
+	border: 4px solid gray;
+
+    -webkit-border-radius:25px;
+    -moz-border-radius:25px; 
+    border-radius:25px;	
+}
+
+.msgLkakomi:after, .msgLkakomi:before {
+	right: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.msgLkakomi:after {
+	border-color: rgba(33, 242, 201, 0);
+	border-right-color: gray;
+	border-width: 6px;
+	margin-top: -6px;
+}
+.msgLkakomi:before {
+	border-color: rgba(33, 242, 201, 0);
+	border-right-color: gray;
+	border-width: 12px;
+	margin-top: -12px;
+}
+.msgLkakomi h4{
+    color: #ffffcc;	    
+}
+
+.gotochi hr{
+    color: #555;	    
+}
+
+/* right->Left 20161106 */ 
+.msgRkakomi {
+	position: relative;
+	background: #f1f1f1;
+	border: 4px solid #f1f1f1;
+
+    -webkit-border-radius:18px;
+    -moz-border-radius:18px; 
+    border-radius:18px;    
+}
+.msgRkakomi:after, .msgRkakomi:before {
+	left: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.msgRkakomi:after {
+	border-color: rgba(33, 242, 201, 0);
+	border-left-color: #f1f1f1;
+	border-width: 30px;
+	margin-top: -30px;
+}
+.msgRkakomi:before {
+	border-color: rgba(33, 242, 201, 0);
+	border-left-color: #f1f1f1;
+	border-width: 36px;
+	margin-top: -36px;
+}
+
+/* ================== 　youtube karuku 20170111  ================== */
+.youtube {position:relative;}/* ラッパー */
+.youtube_play:hover {cursor:pointer;}/* サムネイル */
+.youtube_btn {/* YouTubeアイコン */
+/* アイコンの画像とサイズ指定 */
+width:42px;
+height:30px;
+/*background-image:url(マウスが乗っていない.png); */
+background-image:url(../assets/img/user-lun_Ver_shukuseijin.png);
+/* 上下左右中央へ配置 */
+position:absolute;
+top:0;
+bottom:0;
+left:0;
+right:0;
+margin:auto;
+}
+
+/* ================== 　event campaign 20170308 ================== 　*/
+.eventcampaign{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	padding: 9px;
+	width: 100%;
+/*	background-color: #ff6699; */
+/*	background-color: rgba(256, 100, 100, 0.6); */
+/*	background-color: rgba(204, 0, 102, 0.5); */
+/*　クロスワードの場合↓　*/
+	/*background-color: rgba(51, 153, 255, 0.8);*/
+	/*background-color: rgba(255, 153, 153, 0.8); */
+	background-color:#00bfff;
+	/*background-color:#4169e1;*/
+/*	background-color: rgba(102, 153, 153, 0.8); */
+	box-shadow: 0 -4px 5px rgba(102, 102, 102, 0.6); 
+}
+.eventcampaign p{
+	margin: 0;
+	text-align: center;
+	font-weight: bold;
+	font-size: 80%;
+/*　クロスワードの場合↓　*/	
+	/*color: #ffff00; */
+	/*color: #663333; */
+	color: #f0e68c;
+/*	color: #ffffff;*/
+}
+/* ================== 　event campaign 20170308 all hover  ================== 　*/
+.eventcampaign:hover {
+	background: rgba(255, 255, 255, 0.6);
+/*	background: rgba(102, 102, 51, 0.9); */
+}
+
+.eventcampaign p:hover{
+	margin: 0;
+	text-align: center;
+	font-weight: bold;
+	font-size: 80%;
+/*	color: #ffff00; */
+	color: #666666;	
+}
+
+/* ================== 　eternal link 20170309   ================== 　*/
+.eternallinks a[target="_blank"]::after {
+/*	content: url(../img/ico/external-link-icon-wh.png); */
+/*	content: url(../img/ico/external-link-aqua02-Shapes4FREE.png); */
+	content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAG1JREFUeNpi/P//P0PEyZP8DAwMHxjwABYk9scV5uYC2BQBDfrPAiLQBZH5QM2MIJoJygeZ9BEmAZNEBky4rEJXzIKmAOSph9hMZEFzz0eoM1Dch66QH90jKCD8xIn/oLDEhpHlWLAFCTYAEGAA5AFD0IQGeY4AAAAASUVORK5CYII=);
+	
+	margin-left: -9px;
+
+	position: relative;
+	bottom: -10px;
+}
+
+/* ================== 　crosswordsnavi 20170311 ================== 　*/
+.crosswordsnavi{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	padding: 9px;
+	width: 7%;
+/*	background-color: #ff6699; */
+/*	background-color: rgba(256, 100, 100, 0.6); */
+/*	background-color: rgba(204, 0, 102, 0.5); */
+	background-color: rgba(51, 153, 255, 0.8);
+/*	background-color: rgba(102, 153, 153, 0.8); */
+	box-shadow: 0 -4px 5px rgba(102, 102, 102, 0.6); 
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 14px;
+}
+.crosswordsnavi p{
+	margin: 0;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30%;
+	color: #ffff00; 
+/*	color: #ffffff;*/
+	line-height: 1.0;/*	行間  */
+}
+/* ================== 　crosswordsnavi 20170311 all hover  ================== 　*/
+.crosswordsnavi:hover {
+	background: rgba(255, 255, 255, 0.6);
+/*	background: rgba(102, 102, 51, 0.9); */
+}
+
+.crosswordsnavi p:hover{
+	margin: 0;
+	text-align: center;
+	font-weight: bold;
+	font-size: 80%;
+/*	color: #ffff00; */
+	color: #666666;	
+}
+
+.crosswordsnavi hr{
+	margin-top: 10px;
+	margin-bottom: 10px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 30%;
+	border-top: 1px dashed#ffff00; 
+/*	color: #ffffff;*/
+	line-height: 1.0;/*	行間  */
+}
+/*　紅白味くらべ合戦　*/
+/* left->right 20161106 */ 
+.msgLkakomiaka {
+	position: relative;
+	background: red;
+	border: 4px solid red;
+
+    -webkit-border-radius:25px;
+    -moz-border-radius:25px; 
+    border-radius:25px;	
+}
+.msgLkakomisiro {
+	position: relative;
+	background: white;
+	border: 4px solid white;
+
+    -webkit-border-radius:25px;
+    -moz-border-radius:25px; 
+    border-radius:25px;	
+}
+
+/* ================== 　eternal link 20170425   ================== 　*/
+.eternallinks a[target="_blank"]::after {
+/*	content: url(../img/ico/external-link-icon-wh.png); */
+/*	content: url(../img/ico/external-link-aqua02-Shapes4FREE.png); */
+	content: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKCAYAAACNMs+9AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAG1JREFUeNpi/P//P0PEyZP8DAwMHxjwABYk9scV5uYC2BQBDfrPAiLQBZH5QM2MIJoJygeZ9BEmAZNEBky4rEJXzIKmAOSph9hMZEFzz0eoM1Dch66QH90jKCD8xIn/oLDEhpHlWLAFCTYAEGAA5AFD0IQGeY4AAAAASUVORK5CYII=);
+	
+	margin-left: -9px;
+
+	position: relative;
+	bottom: -10px;
+}

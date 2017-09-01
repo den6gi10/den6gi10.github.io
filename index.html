@@ -166,6 +166,58 @@
           <!-- geishun end 170126 -->          
 					<h1>三軒茶屋すずらん通り大衆割烹味とめ</h1>
           <p>http://ajitome.xyz</p>
+        <!-- coutdouwn 20170902 -->
+        <!-- <h5 style="color: #411977;">いよゝ見納め！！<br>今の店構えでの営業は...</h5> -->
+        <p>
+          <a href="sp_notice2017.html" target="_blank">
+          <b>いよゝ見納め！！<br>今の店構えでの営業は...</b>
+          </a>        
+        <!-- 残り日数はspan.day、残り時間はspan.hourなどで出力されます。.min、.sec、.milliがついています。例えばこのように指定します。 -->
+          <div id="CDT"></div>
+        </p>
+
+          <script language="JavaScript" type="text/javascript">
+          function CountdownTimer(elm,tl,mes){
+           this.initialize.apply(this,arguments);
+          }
+          CountdownTimer.prototype={
+           initialize:function(elm,tl,mes) {
+            this.elem = document.getElementById(elm);
+            this.tl = tl;
+            this.mes = mes;
+           },countDown:function(){
+            var timer='';
+            var today=new Date();
+            var day=Math.floor((this.tl-today)/(24*60*60*1000));
+            var hour=Math.floor(((this.tl-today)%(24*60*60*1000))/(60*60*1000));
+            var min=Math.floor(((this.tl-today)%(24*60*60*1000))/(60*1000))%60;
+            var sec=Math.floor(((this.tl-today)%(24*60*60*1000))/1000)%60%60;
+            var milli=Math.floor(((this.tl-today)%(24*60*60*1000))/10)%100;
+            var me=this;
+          
+            if( ( this.tl - today ) > 0 ){
+             if (day) timer += '<span class="day">'+day+'日</span>';
+             if (hour) timer += '<span class="hour">'+hour+'時間</span>';
+             timer += '<span class="min">'+this.addZero(min)+'分</span><span class="sec">'+this.addZero(sec)+'秒</span><span class="milli">'+this.addZero(milli)+'</span>';
+             this.elem.innerHTML = timer;
+             tid = setTimeout( function(){me.countDown();},10 );
+            }else{
+             this.elem.innerHTML = this.mes;
+             return;
+            }
+           },addZero:function(num){ return ('0'+num).slice(-2); }
+          }
+          function CDT(){
+           var tl = new Date('2017/10/1 00:00:00');
+           var timer = new CountdownTimer('CDT',tl,'2018年秋☆新装開店');
+           timer.countDown();
+          }
+          window.onload=function(){
+           CDT();
+          }
+          </script>
+          <br>           
+          <!-- kokomade countdown -->
 					<!-- <p><h4>8/14・15は楽しいゝ夏休み！<br>2日間お休みいただきます。</h4></p>  -->
 					<!-- <p><h4>本年の土用丑の日もご贔屓いただき誠にありがとうございました。</h4></p>  -->
 					<!-- <p><h4>本日(月)は不定期休業日</h4></p>  -->

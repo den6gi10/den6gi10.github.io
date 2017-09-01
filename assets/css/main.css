@@ -570,21 +570,25 @@ margin:auto;
 /* ================== 　countdown 20170901   ================== 　*/
 /* 残り日数はspan.day、残り時間はspan.hourなどで出力されます。.min、.sec、.milliがついています。例えばこのように指定します。 */
 #CDT{
+	margin-top: -20px;
 	/* font-size: 26px; */
 	font-size: medium;
 	font-weight: bold;
-	color: #411977;		
+    color: #1abc9c;
+	/* color: #411977;		 */
    }
    #CDT .day{
 	/* font-size: 40px; */
 	font-size: x-large;   
 	font-weight: bold;
-	color: #411977;			
+    color: #1abc9c;
+	/* color: #411977;			 */
    }
    #CDT .hour,#CDT .min,#CDT .sec{
 	/* font-size: 30px; */
     font-size: large;    	
 	font-weight: bold;	
-	color: #411977;
+    color: #1abc9c;	
+	/* color: #411977; */
 	/* color: #666666;	 */
 }

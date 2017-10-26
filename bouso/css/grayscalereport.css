@@ -9,7 +9,7 @@ body {
   font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #ffd700; /* white */
   background-color: black;
-  
+
 }
 html {
   width: 100%;
@@ -409,3 +409,53 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: rgba(255, 255, 255, 0.2);
 }
+
+/* ================== 　event campaign 20171026 ================== 　*/
+.eventcampaign{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	padding: 9px;
+	width: 15%;
+	/* background-color: #ff6699;  */
+	/* background-color: rgba(256, 100, 100, 0.6);  */
+/*	background-color: rgba(204, 0, 102, 0.5); */
+/*　クロスワードの場合↓　*/
+	/* background-color: rgba(51, 153, 255, 0.8); */
+	/* background-color: rgba(255, 153, 153, 0.8);  */
+	  /* ajitomesamba2017   */ 
+	  /* background-color:#44023F;   */ 
+	  background-color:rgba(80, 85, 87, 0.78);   
+	 /* background-color:#4169e1;  */
+	/* background-color: rgba(102, 153, 153, 0.8);  */
+	box-shadow: 0 -4px 5px rgba(236, 205, 26, 0.6); 
+}
+.eventcampaign p{
+	margin: 0;
+	text-align: center;
+	font-weight: bold;
+	font-size: 80%;
+/*　クロスワードの場合↓　*/	
+	/*color: #ffff00; */
+	/*color: #663333; */
+/* ajitomesamba2017   */ 	
+	/* color: #f0e68c; */
+	color: #f1e891;
+/*	color: #ffffff;*/
+}
+
+/* ================== 　event campaign 20171026 all hover  ================== 　*/
+.eventcampaign:hover {
+	background: rgba(255, 255, 255, 0.6);
+/*	background: rgba(102, 102, 51, 0.9); */
+}
+
+.eventcampaign p:hover{
+	margin: 0;
+	text-align: center;
+	font-weight: bold;
+	font-size: 80%;
+/*	color: #ffff00; */
+	color: #666666;	
+}
+

@@ -10,7 +10,7 @@
 @import url(http://fonts.googleapis.com/css?family=Montserrat:400,700);
 
 body {
-  	background-color: #1abc9c;
+  	background-color: #3967c4;
 /*  	font-family: 'Montserrat', sans-serif;　*/
   	font-family:  "Hiragino Kaku Gothic ProN", "游ゴシック", YuGothic, Meiryo, 'Montserrat', sans-serif;
     font-weight: 400;
@@ -53,7 +53,7 @@ p {
 
 /* Links */
 a {
-    color: #1abc9c;
+    color: #3967c4;
     word-wrap: break-word;
 
     -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
@@ -65,7 +65,7 @@ a {
 
 a:hover,
 a:focus {
-    color: #7b7b7b;
+    color: #16a085;
     text-decoration: none;
     outline: 0;
 }
@@ -100,7 +100,7 @@ a:after {
 }
 
 .navbar-inverse {
-	background-color: #1abc9c;
+	background-color: #3967c4;
 	border-color: #16a085;
 }
 
@@ -127,7 +127,7 @@ a:after {
 }
 
 .progress-bar-theme {
-  background-color: #1abc9c;
+  background-color: gray;
 }
 
 
@@ -248,7 +248,7 @@ bt {
 
 .glyphicon {
 	font-size: 40px;
-	color: #1abc9c;
+	color: gray;
 }
 
 /* ================== ToTOPpage  ================== */
@@ -257,7 +257,7 @@ bt {
 hr {
 	 height: 1px;
 	 border: none;
-	 border-top: 1px #1abc9c dashed;
+	 border-top: 1px #3967c4 dashed;
 }
 
 /* ================== Kakomi  ================== */
@@ -333,8 +333,8 @@ ul.msgL li a {
 /* left->right 20161106 */ 
 .msgLkakomi {
 	position: relative;
-	background: #1abc9c;
-	border: 4px solid #1abc9c;
+	background: gray;
+	border: 4px solid gray;
 
     -webkit-border-radius:25px;
     -moz-border-radius:25px; 
@@ -354,13 +354,13 @@ ul.msgL li a {
 
 .msgLkakomi:after {
 	border-color: rgba(33, 242, 201, 0);
-	border-right-color: #1abc9c;
+	border-right-color: gray;
 	border-width: 6px;
 	margin-top: -6px;
 }
 .msgLkakomi:before {
 	border-color: rgba(33, 242, 201, 0);
-	border-right-color: #1abc9c;
+	border-right-color: gray;
 	border-width: 12px;
 	margin-top: -12px;
 }
@@ -431,19 +431,16 @@ margin:auto;
 	bottom: 0;
 	padding: 9px;
 	width: 100%;
-	/* background-color: #ff6699;  */
-	/* background-color: rgba(256, 100, 100, 0.6);  */
+/*	background-color: #ff6699; */
+/*	background-color: rgba(256, 100, 100, 0.6); */
 /*	background-color: rgba(204, 0, 102, 0.5); */
 /*　クロスワードの場合↓　*/
-	/* background-color: rgba(51, 153, 255, 0.8); */
-	/* background-color: rgba(255, 153, 153, 0.8);  */
-	  /* ajitomesamba2017   */ 
-	  /* background-color:#44023F;   */ 
-	  background-color:#3967c4;   
-	  /* background-color:rgba(220, 109, 45, 0.78);    */
-	 /* background-color:#4169e1;  */
-	/* background-color: rgba(102, 153, 153, 0.8);  */
-	box-shadow: 0 -4px 5px rgba(252, 247, 176, 0.6); 
+	/*background-color: rgba(51, 153, 255, 0.8);*/
+	/*background-color: rgba(255, 153, 153, 0.8); */
+	background-color:#00bfff;
+	/*background-color:#4169e1;*/
+/*	background-color: rgba(102, 153, 153, 0.8); */
+	box-shadow: 0 -4px 5px rgba(102, 102, 102, 0.6); 
 }
 .eventcampaign p{
 	margin: 0;
@@ -453,11 +450,7 @@ margin:auto;
 /*　クロスワードの場合↓　*/	
 	/*color: #ffff00; */
 	/*color: #663333; */
-/* ajitomesamba2017   */ 	
-	/* color: #f0e68c; */
-	color: #dddd15; 
-	/* color: #df1c02; akamoji  */
-	/* color: #411977; */
+	color: #f0e68c;
 /*	color: #ffffff;*/
 }
 /* ================== 　event campaign 20170308 all hover  ================== 　*/
@@ -570,28 +563,9 @@ margin:auto;
 	bottom: -10px;
 }
 
-/* ================== 　countdown 20170901   ================== 　*/
-/* 残り日数はspan.day、残り時間はspan.hourなどで出力されます。.min、.sec、.milliがついています。例えばこのように指定します。 */
-#CDT{
-	margin-top: -20px;
-	/* font-size: 26px; */
-	font-size: medium;
-	font-weight: bold;
-    color: #1abc9c;
-	/* color: #411977;		 */
-   }
-   #CDT .day{
-	/* font-size: 40px; */
-	font-size: x-large;   
-	font-weight: bold;
-    color: #1abc9c;
-	/* color: #411977;			 */
-   }
-   #CDT .hour,#CDT .min,#CDT .sec{
-	/* font-size: 30px; */
-    font-size: large;    	
-	font-weight: bold;	
-    color: #1abc9c;	
-	/* color: #411977; */
-	/* color: #666666;	 */
+/* ==================  mama-san img radius　20171101   ================== 　*/
+.mamaimage img{
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
 }

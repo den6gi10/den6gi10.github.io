@@ -247,7 +247,7 @@ a:focus {
 .pic-section-1{
   /*background: url(../img/01_sekihan.jpeg) no-repeat center center scroll;    */
   /* background: url(../img/tennnaiSakura.jpeg) no-repeat center center scroll;   */
-  background: url(../img/IMG_0235.JPG) no-repeat right bottom scroll;   /* migi ue yose */
+  background: url(../img/DSC_0111.JPG) no-repeat right bottom scroll;   /* migi ue yose */
   background-color: black;
   -webkit-background-size: contain; /* migi ue yose */
   -moz-background-size: contain;
@@ -257,7 +257,7 @@ a:focus {
 
 .pic-section-2{
   /* background: url(../../assets/img/IMG_9204-2.JPG) no-repeat center center scroll;   */
-  background: url(../img/misemaekappa.jpeg) no-repeat left top scroll;  /* hidari ue yose */
+  background: url(../../springfesseki/img/03-chitchien.jpeg) no-repeat left top scroll;  /* hidari ue yose */
   background-color: black;
   -webkit-background-size: contain; /* hidari ue yose */
   -moz-background-size: contain;
@@ -267,7 +267,21 @@ a:focus {
 
 .pic-section-3{
   /* background: url(../img/cheatsareru.jpeg) no-repeat center center scroll;   */
-  background: url(../img/misemaerappa.jpeg) no-repeat center center scroll;    
+  background: url(../img/IMG_0234.JPG) no-repeat center center scroll;    
+  background-color: black;
+  /* -webkit-background-size: cover; 
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;  */
+  -webkit-background-size: contain; /* hidari ue yose */
+  -moz-background-size: contain;
+  background-size: contain;
+  -o-background-size: contain;    
+} 
+
+.pic-section-4{
+  /* background: url(../img/doburokukirin.jpeg) no-repeat center center scroll;  mama3  */
+  background: url(../img/IMG_1968.JPG) no-repeat center center scroll;  
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -275,20 +289,10 @@ a:focus {
   -o-background-size: cover;  
 } 
 
-.pic-section-4{
-  /* background: url(../img/doburokukirin.jpeg) no-repeat center center scroll;  mama3  */
-  background: url(../img/mamasanmodori.JPG) no-repeat center center scroll;  
-  background-color: black;
-  -webkit-background-size: contain;
-  -moz-background-size: contain;
-  background-size: contain;
-  -o-background-size: contain;  
-} 
-
 .pic-section-5{
   /*background: url(../img/amenonakaenjiru.JPG) no-repeat center center scroll;  */
   /* background: url(../img/hazurenasikujinaka.JPG) no-repeat left center scroll;  */
-  background: url(../img/amenonakaenjiru.JPG) no-repeat left center scroll; 
+  background: url(../img/IMG_2022.JPG) no-repeat center center scroll;
   background-color: black;
   -webkit-background-size: contain;
   -moz-background-size: contain;
@@ -298,7 +302,7 @@ a:focus {
 
 .pic-section-6{
   /*background: url(../img/06-beer.jpeg) no-repeat center center scroll;  */
-  background: url(../img/ajitomemisemaeaka.jpeg) no-repeat left center scroll; 
+  background: url(../img/IMG_2155seraken.jpg) no-repeat left center scroll; 
   background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -309,8 +313,8 @@ a:focus {
 
 .pic-section-7{
   /*background: url(../img/07-mamasan.jpeg) no-repeat center center scroll;  */
-  background: url(../img/ookinaShituji.JPG) no-repeat right top scroll;   
-  background-color: black;
+  /* background: url(../img/ookinaShituji.JPG) no-repeat right top scroll;    */
+  background-color: rgb(250, 243, 176);
   -webkit-background-size: contain;
   -moz-background-size: contain;
   background-size: contain;

@@ -315,6 +315,7 @@ a:focus {
   /*background: url(../img/07-mamasan.jpeg) no-repeat center center scroll;  */
   /* background: url(../img/ookinaShituji.JPG) no-repeat right top scroll;    */
   background-color: rgb(250, 243, 176);
+  color: #474646d2; /* white */  
   -webkit-background-size: contain;
   -moz-background-size: contain;
   background-size: contain;

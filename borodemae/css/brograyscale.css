@@ -234,8 +234,9 @@ a:focus {
   width: 100%;
   padding: 50px 0;
   color: rgb(136,28,33); /* white */
-  background: url(../img/ai2ikeruOKAMI.png) no-repeat center center scroll;
-  background-color: rgb(242, 242, 177);
+  /* background: url(../img/ai2ikeruOKAMI.png) no-repeat center center scroll; */
+  /* background-color: rgb(242, 242, 177); */
+  background-color: rgb(224, 224, 221);
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;

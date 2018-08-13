@@ -1,0 +1,299 @@
+@charset "UTF-8";
+
+/* CSSグリッドに対応したブラウザ用の設定 */
+@supports (display: grid) {
+
+body	{margin: 0;
+	font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif;
+	background-color: #fcf3c9;	
+	color: #333333/* add */
+}
+
+/* 基本 */
+.buliding * {
+	margin: 0;
+}
+
+.buliding img	{
+	width: 100%;
+	height: auto;
+/*	vertical-align: top; */  
+	vertical-align: bottom;
+}
+
+.buliding-sub img {
+	/* max-width: 120px; */
+	max-width: 100px;
+}
+
+
+/* グリッド */
+.buliding {
+	--side: 20px;
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: repeat(2, auto);
+	grid-row-gap: 30px;
+	margin: 0 var(--side) 30px;
+	font-family: 'Noto Sans Japanese', sans-serif;
+}
+
+/* 大きい画像 */
+.buliding-photo {
+	grid-column: 1 / -1;
+	grid-row: 1;
+	margin: 0 calc( var(--side) * -1 );
+	/* add */
+}
+
+.buliding-photo img {
+	height: 100%;
+	object-fit: cover;
+	/*//////////*/
+	object-position: 30% 12%;
+	max-height: 600px;  /*600px*/
+	background: rgba(0,0,0,0.4);
+}
+
+/* テキスト */
+.buliding-text {
+	grid-column: span 5 / -1;
+	grid-row: 1;
+	justify-self: center; /*center*/
+	align-self: center;
+	z-index: 10; /* 10 */
+	padding: 40px 0;
+	color: #fcf3c9; /* add */
+	writing-mode: vertical-rl;
+	text-shadow: 0px 0px 20px #000;
+
+	/* テキストのグリッド */
+	display: grid;
+	grid-row-gap: 15px;
+	justify-items: end;
+}
+
+.buliding-text h2 {
+	padding-bottom: 20px;
+	font-size: 40px;
+	font-weight: 900;
+	line-height: 1.5;
+}
+
+.buliding-text p {
+	height: 18em;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.8;
+}
+
+/* サブ情報 */
+.buliding-sub {
+	grid-column: 1 / span 6;
+	grid-row: 2;
+
+	/* サブ情報のグリッド */
+	display: grid;
+	grid-auto-flow: column;
+	grid-column-gap: 10px;
+	background-color: #fcf3c9;	/* add */
+}
+
+.buliding-sub p {
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+/* add footer */
+/* フッター */
+.page-foot {
+	grid-column: 1;
+	grid-row: 3;
+	padding: 20px 0;
+	background-color: #333;
+	color: #fcf3c9;
+	text-align: center;
+	font-size: 14px;
+}
+
+/* ##### 画面の横幅767ピクセル以下 ##### */
+@media (max-width: 767px) {
+
+	.buliding-text {
+		justify-self: end;
+	}
+
+	.buliding-sub {
+		grid-column: 1 / -1;
+	}
+
+	.buliding::after {
+		grid-column: 1 / -1;
+		grid-row: 1;
+		margin: 0 calc( var(--side) * -1 );
+		content: '';
+		background-color: rgba(0,0,0,0.4);
+	}
+
+}
+
+
+} /* CSSグリッドに対応したブラウザ用の設定 ここまで */
+
+
+
+
+/* IE11用の設定 */
+@media all and (-ms-high-contrast: none), not all and (-ms-high-contrast: none) {
+
+/* Autoprefixerで変換した設定 */
+body	{margin: 0;
+	font-family: 'メイリオ', 'Hiragino Kaku Gothic Pro', sans-serif}
+
+
+/* 基本 */
+.buliding * {
+	margin: 0;
+}
+
+.buliding img	{
+	width: 100%;
+	height: auto;
+	vertical-align: bottom;
+}
+
+.buliding-sub img {
+	max-width: 120px;
+}
+
+
+/* グリッド */
+.buliding {
+	--side: 20px;
+	display: -ms-grid;
+	display: grid;
+	--ms-grid-columns: (1fr)[12];
+	    grid-template-columns: repeat(12, 1fr);
+	--ms-grid-rows: (auto)[2];
+	    grid-template-rows: repeat(2, auto);
+	grid-row-gap: 30px;
+	margin: 0 20px 30px;
+	font-family: 'Noto Sans Japanese', sans-serif;
+}
+
+/* 大きい画像 */
+.buliding-photo {
+	-ms-grid-column: 1;
+	-ms-grid-column-span: 12;
+	grid-column: 1 / 13;
+	-ms-grid-row: 1;
+	grid-row: 1;
+	margin: 0 calc( 20px * -1 );
+}
+
+.buliding-photo img {
+	height: 100%;
+	-o-object-fit: cover;
+	   object-fit: cover;
+	max-height: 600px;
+}
+
+/* テキスト */
+.buliding-text {
+	-ms-grid-column: 8;
+	-ms-grid-column-span: 5;
+	grid-column: span 5 / 13;
+	-ms-grid-row: 1;
+	grid-row: 1;
+	-ms-grid-column-align: center;
+	    justify-self: center;
+	-ms-grid-row-align: center;
+	    align-self: center;
+	z-index: 10;
+	padding: 40px 0;
+	/* color: #fff; */
+	color: #fcf3c9;
+	-webkit-writing-mode: vertical-rl;
+	    -ms-writing-mode: tb-rl;
+	        writing-mode: vertical-rl;
+	text-shadow: 0px 0px 20px #000;
+
+	/* テキストのグリッド */
+	display: -ms-grid;
+	display: grid;
+	grid-row-gap: 15px;
+	justify-items: end;
+}
+
+.buliding-text h2 {
+	padding-bottom: 20px;
+	font-size: 40px;
+	font-weight: 900;
+	line-height: 1.5;
+}
+
+.buliding-text p {
+	height: 18em;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 1.8;
+}
+
+/* サブ情報 */
+.buliding-sub {
+	-ms-grid-column: 1;
+	-ms-grid-column-span: 6;
+	grid-column: 1 / span 6;
+	-ms-grid-row: 2;
+	grid-row: 2;
+
+	/* サブ情報のグリッド */
+	display: -ms-grid;
+	display: grid;
+	grid-auto-flow: column;
+	grid-column-gap: 10px;
+}
+
+.buliding-sub p {
+	font-size: 14px;
+	line-height: 1.5;
+}
+
+/* add */
+/* フッター */
+.page-foot {
+	-ms-grid-column: 1;
+	grid-column: 1;
+	-ms-grid-row: 3;
+	grid-row: 3;
+	padding: 20px 0;
+	background-color: #333;
+	color: #fcf3c9;
+	text-align: center;
+	font-size: 14px;
+}
+
+
+/* IE11用追加設定 */
+.buliding {
+	min-width: 768px;
+}
+.buliding-text {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+}
+.buliding-sub {
+	display: flex;
+	margin-top: 30px;
+}
+.buliding-sub img {
+	width: auto;
+	margin-right: 10px;
+}
+.buliding::after {
+	display: block;
+}
+
+} /* IE11用の設定 ここまで */
+

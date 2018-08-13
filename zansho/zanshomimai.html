@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<!-- add -->
+<link rel="icon" href="assets/img/ico/favicon.png">
+<link rel="shortcut icon" href="assets/img/ico/favicon.ico">
+<link rel="apple-touch-icon" href="assets/img/ico/apple-icon.png">
+
+<title>三軒茶屋すずらん通り大衆割烹味とめ</title>
+<meta name="viewport" content="width=device-width">
+<!-- add -->
+<meta name="description" content="三軒茶屋すずらん通り大衆割烹味とめ 味よしお値段よし風情よしの三拍子揃ったメニューの多い料理店です。店舗建替工事の為2019年春まで休業中。残暑お見舞い"/>
+<meta name=”keywords” content=”tokyo,ajitome,Japan,味とめ,世田谷,あじとめ,出張,メニューの多い料理店”,SANGEN-JAYA,三軒茶屋,三茶,残暑お見舞い”/>
+
+<script defer src="https://use.fontawesome.com/releases/v5.0.10/js/all.js" integrity="sha384-slN8GvtUJGnv6ca26v8EzVaR9DC58QEwsIk9q1QXdCU8Yu8ck/tL/5szYlBbqmS+" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/earlyaccess/notosansjapanese.css" rel="stylesheet">
+
+<link rel="stylesheet" href="style.css">
+<!-- GA add -->
+<script>
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+	ga('create', 'UA-82227481-1', 'auto');
+	ga('send', 'pageview');
+
+</script>
+</head>
+<body>
+
+
+<section class="buliding">
+
+<div class="buliding-text">
+<h2>平成さいごの<br>残暑お見舞い申し上げます</h2>
+<p>昨年九月末、店舗建替のため休業し、皆さまには多大なるご迷惑をおかけしております。来年の春、味とめビルにて新装開店予定でございます。お待たせしてしまい誠に恐れ入りますが、変わらぬご贔屓くださいますよう改めてお願いを申し上げます。</br><small>ー 平成三十年 晩夏　　　大衆割烹味とめ 店主 ー</small></b></p>
+</div>
+
+<figure class="buliding-photo">
+<img src="img/build20180812-IMG_0085sml.jpg" alt="20180812buildingContructure">
+</figure>
+
+<div class="buliding-sub">
+<!-- <img src="img/bottle.jpg" alt=""> -->          
+<a href="index.html" onclick="ga('send', 'event', 'top-index', 'click', this.href);">
+<img src="img/kyugyouchu20180216.png" alt="ajtomelogo_sleep">
+</a>
+<!-- <img src="assets/img/kyugyouchu20180216.png" alt="ajtomelogo_sleep"> -->
+<!-- <p><b>三軒茶屋<br/>すずらん通り<br/>大衆割烹味とめ<br/>(休業中)</b></p> -->
+<p><b>三軒茶屋<br/>すずらん通り大衆割烹味とめ<br/>(休業中)</b></p>
+
+<p>
+	〒154-0004<br/>東京都世田谷区太子堂4-23-7<br/>
+	休業中のお問合せ：03-3422-5845<br/>
+	WEB：http://ajitome.xyz<br/>
+</p>
+<!-- <p>かわいい小瓶に入ったパッケージはテーブルに置いておくだけでも絵になります。甘いものが苦手な人にもおすすめです。</p> -->
+</div>
+</section>
+<!-- add -->
+<footer class="page-foot">
+	<p>© 2016-2018 味とめ All Right Reserved</p>
+</footer>
+
+
+<script>
+var ua = window.navigator.userAgent.toLowerCase();
+
+if(ua.indexOf('trident') != -1 || (ua.indexOf('safari') != -1 && ua.indexOf('version/10') != -1)) {
+
+var imgs = document.querySelectorAll('.buliding-photo img');
+
+var imgs = Array.prototype.slice.call(imgs,0);
+
+imgs.forEach(function(value, index, array) {
+	var imgurl = value.src;
+	var fig = value.parentNode;
+	fig.style.backgroundImage = 'url(' + imgurl + ')';
+	fig.style.backgroundSize = 'cover';
+	fig.style.backgroundPosition = 'center';
+	fig.style.minHeight = '250px';
+	value.style.display = 'none';
+});
+
+}
+</script>
+</body>
+</html>

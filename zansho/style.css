@@ -69,7 +69,7 @@ body	{margin: 0;
 
 	/* テキストのグリッド */
 	display: grid;
-	grid-row-gap: 15px;
+	grid-row-gap: 10px; /*15*/
 	justify-items: end;
 }
 

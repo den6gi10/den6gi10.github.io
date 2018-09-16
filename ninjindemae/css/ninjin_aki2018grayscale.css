@@ -34,6 +34,19 @@ p {
   font-size: 18px;
   line-height: 1.5;
 }
+/* 20180917 */
+pre{
+  font-size: 1.35em;
+  font-family: "Lora", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #EBC500; /* white */
+  background-color: rgba(51, 49, 140, 0);
+  border: none;
+  padding: -10%;
+  /* padding-bottom: -40%; */
+  /* background: #33318C url(../img/watercolor-3.png) center center;   */
+}
+/* 20180917 */
+
 @media (min-width: 768px) {
   p {
     margin: 0 0 35px;

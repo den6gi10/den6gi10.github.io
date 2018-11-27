@@ -666,3 +666,165 @@ margin:auto;
     -webkit-border-radius: 40px;
     -moz-border-radius: 40px;
 }
+
+/* ==================  photo-show img slide　20181117   ================== 　*/
+
+.bg_build {
+	background-image:url(../img/orig-bldg20180728.jpg);
+	/* 上下左右中央へ配置 */
+	position:absolute;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto;		
+}
+
+/* photoshow 20181013 */
+.photo-show { 
+	height: 440px; 
+	/*表示したい大きさ*/
+    margin: 10px auto; /*縦余白30pxは任意 */
+    max-width: 100%;
+    position: relative;
+	width: 440px; 
+	/*表示したい大きさ、height と合わせる*/
+	text-align:center;
+}
+/* defalut 16s 枚数に応じて増やす０１ */
+.photo-show img {
+	/*  
+	display:inline-block;
+  */
+    animation: show 28s infinite;
+    -webkit-animation: show 28s infinite;
+    border-radius: 50%;
+    height: auto;
+    max-width: 100%;
+    opacity: 0;
+    position: absolute; /*画像を全て重ねる*/
+}
+/* あｄｄ */
+.photo-show p { 
+	text-align: center;
+	font-size: medium;
+	font-weight: bold;
+	color: gray;	
+	position: absolute; /*画像に重ねる*/
+	/* 文字の下半分だけ引く */
+	/* background: linear-gradient(transparent 70%, #5962aa71 70%); */
+}
+
+/*アニメーション*/
+
+@keyframes show {
+    0% {opacity:0}
+    5% {opacity:1}
+    10% {opacity:1}
+    20% {opacity:0}
+ }
+
+@-webkit-keyframes show {
+    0% {opacity:0}
+    5% {opacity:1}
+    10% {opacity:1}
+    20% {opacity:0}
+}
+
+/*各画像のアニメーションの開始時間をずらす*/
+/* defalut 16s 枚数に応じて増やす０2 */
+
+.photo-show img:nth-of-type(1) {
+    animation-delay: 0s;
+    -webkit-animation-delay: 0s;
+}
+
+.photo-show img:nth-of-type(2) {
+    animation-delay: 2s;
+    -webkit-animation-delay: 2s;
+}
+
+.photo-show img:nth-of-type(3) {
+    animation-delay: 4s;
+    -webkit-animation-delay: 4s;
+}
+
+.photo-show img:nth-of-type(4) {
+    animation-delay: 6s;
+    -webkit-animation-delay: 6s;
+}
+
+.photo-show img:nth-of-type(5) {
+    animation-delay: 8s;
+    -webkit-animation-delay: 8s
+}
+
+.photo-show img:nth-of-type(6) {
+    animation-delay: 10s;
+    -webkit-animation-delay: 10s;
+}
+
+.photo-show img:nth-of-type(7) {
+    animation-delay: 12s;
+    -webkit-animation-delay: 12s;
+} 
+
+.photo-show img:nth-of-type(8) {
+    animation-delay: 14s;
+    -webkit-animation-delay: 14s;
+}
+
+	.photo-show img:nth-of-type(9) {
+    animation-delay: 16s;
+    -webkit-animation-delay: 16s;
+}
+
+.photo-show img:nth-of-type(10) {
+animation-delay: 18s;
+-webkit-animation-delay: 18s;
+}
+
+.photo-show img:nth-of-type(11) {
+	animation-delay: 20s;
+	-webkit-animation-delay: 20s;
+}
+
+.photo-show img:nth-of-type(12) {
+	animation-delay: 22s;
+	-webkit-animation-delay: 22s;
+}
+
+.photo-show img:nth-of-type(13) {
+	animation-delay: 24s;
+	-webkit-animation-delay: 24s;
+}
+
+.photo-show img:nth-of-type(14) {
+	animation-delay: 26s;
+	-webkit-animation-delay: 26s;
+}
+
+.photo-show img:nth-of-type(15) {
+	animation-delay: 28s;
+	-webkit-animation-delay: 28s;
+}
+/*
+.photo-show img:nth-of-type(16) {
+	animation-delay: 30s;
+	-webkit-animation-delay: 30s;
+}
+.photo-show img:nth-of-type(17) {
+	animation-delay: 32s;
+	-webkit-animation-delay: 32s;
+}
+.photo-show img:nth-of-type(18) {
+	animation-delay: 34s;
+	-webkit-animation-delay: 34s;
+}
+
+.photo-show img:nth-of-type(19) {
+	animation-delay: 36s;
+	-webkit-animation-delay: 36s;
+}
+*/
+/* ==================  photo-show img slide　20180505   ================== 　*/
